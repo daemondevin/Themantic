@@ -1,0 +1,22 @@
+{
+    "name": "daemondevin/themantic",
+    "description": "The most versatile MODx front-end template with Semantic/Fomantic UI integration",
+    "type": "modx-extra",
+    "keywords": ["modx", "template", "semantic-ui", "fomantic-ui", "cms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "daemon.devin",
+            "email": "daemon.devin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Themantic\\": "core/components/themantic/src/"
+        }
+    }
+}

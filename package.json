@@ -1,0 +1,29 @@
+{
+  "name": "themantic",
+  "version": "1.0.0",
+  "description": "The most versatile MODx front-end template with Semantic/Fomantic UI integration",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:semantic",
+    "build:semantic": "cd assets/components/themantic/semantic-ui && gulp build",
+    "watch": "cd assets/components/themantic/semantic-ui && gulp watch",
+    "install:semantic": "cd assets/components/themantic && npm install semantic-ui --save"
+  },
+  "keywords": [
+    "modx",
+    "template",
+    "semantic-ui",
+    "fomantic-ui",
+    "cms",
+    "framework"
+  ],
+  "author": "daemon.devin",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "semantic-ui": "^2.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

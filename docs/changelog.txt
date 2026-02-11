@@ -1,0 +1,13 @@
+Changelog for Themantic
+=======================
+
+Version 1.0.0-beta (Released: TBD)
+----------------------------------
+- Initial beta release
+- Core template system with Semantic UI integration
+- Four base templates: Base, Landing, Blog, E-commerce
+- Custom snippets: ThematicMenu, ThematicBreadcrumbs, ThematicGallery
+- Custom chunks: Navigation, Footer, Hero, Card
+- MODx Manager plugin integration
+- Responsive mobile-first design
+- Built-in examples and documentation
